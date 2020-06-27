@@ -14,4 +14,5 @@ jobs:
         run: |
           asdf plugin add aws-iam-authenticator https://github.com/stefansedich/asdf-aws-iam-authenticator
       - name: asdf install
-        uses: asdf-vm/actions/install@v1
+        run: |
+          asdf install
