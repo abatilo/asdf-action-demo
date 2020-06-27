@@ -16,3 +16,4 @@ jobs:
       - name: asdf install
         run: |
           asdf install
+          pulumi --help
